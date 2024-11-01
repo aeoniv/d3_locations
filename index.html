@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Globe with p5.js Background</title>
+    <style>
+        /* Make sure SVG is positioned above the p5.js canvas */
+        svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <svg></svg>
+    
+    <!-- p5.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/addons/p5.sound.min.js"></script>
+  
+    <!-- D3 Libraries -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+
+    <script src = "sketch.js">
+    
+    </script>
+</body>
+</html>
